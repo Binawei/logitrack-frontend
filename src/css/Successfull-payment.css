@@ -1,0 +1,81 @@
+.success-icon {
+  position: relative;
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.successfully,
+.your-requested-has {
+  position: relative;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+}
+.your-requested-has {
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  color: #5c6881;
+  display: inline-block;
+  width: 505px;
+}
+.successfully-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.key-alt-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.text {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 140%;
+}
+.buttondefault {
+  border-radius: 6px;
+  background-color: #f2f4f7;
+  width: 623px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.buttondefault-wrapper,
+.create-orderform,
+.create-orderform-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.create-orderform,
+.create-orderform-inner {
+  align-items: center;
+  text-align: left;
+  font-size: 16px;
+}
+.create-orderform {
+  position: relative;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 100%;
+  height: 353px;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: center;
+  font-size: 32px;
+  color: #101828;
+  font-family: 16px;
+}

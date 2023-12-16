@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.form-ord label {
+  display: block;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.form-ord input[type="text"],
+.form-ord input[type="number"],
+.form-ord input[type="datetime-local"],
+.form-ord textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 0.5px solid #000000;
+  border-radius: 6px;
+}
+
+.form-ord .flex-container {
+  display: flex;
+  gap: 30px;
+}
+
+.form-ord .weight-control {
+  display: flex;
+  align-items: center;
+}
+
+.form-ord button {
+  background-color: #219653;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+}
+
+.flex-item {
+  width: 100%;
+}
+
+.required {
+  color: red;
+}
+
+.map {
+  display: flex;
+  align-items: right;
+  width: 564px;
+  height: 757px;
+}
+
+.head-ord {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.header-s {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.success-icon {
+  width: 20px;
+  height: 30px;
+  overflow: hidden;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.map-link {
+  font-weight: 300;
+  float: right;
+  color: #1570ef;
+}
+
+.submit-div {
+  width: 100%;
+}
+
+.form-ord input .recipientphoneNumber {}

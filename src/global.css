@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-text-normal-16: Inter;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --body-text-normal-16-size: 16px;
+  --font-size-131xl: 150px;
+  --font-size-xl: 20px;
+  --headline-bold-40-size: 40px;
+  --font-size-lg: 18px;
+
+  --white: #fff;
+  --color-darkslategray-100: #21334f;
+  --color-darkslategray-200: #012a4a;
+  --color-crimson-100: #f31559;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: #d8d8d8;
+  --color-whitesmoke: #f7f8f8;
+  --color-gold: rgba(255, 204, 41, 0.1);
+  --color-gray-100: rgba(0, 0, 0, 0.04);
+  --color-gray-200: rgba(255, 255, 255, 0.3);
+  --color-black: #000;
+
+  --gap-xs: 12px;
+  --gap-5xl: 24px;
+  --gap-13xl: 32px;
+  --gap-xl: 20px;
+
+  --padding-sm: 14px;
+  --padding-13xl: 32px;
+
+  --br-5xs: 8px;
+  --br-5xl: 24px;
+  --br-11xs-5: 1.5px;
+
+  /* fonts */
+  --button-semi-bold-14: Inter;
+  --button-medium: Heebo;
+
+  /* font sizes */
+  --button-semi-bold-14-size: 14px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --white: #fff;
+  --color-crimson: #f31559;
+  --color-darkslategray: #012a4a;
+  --grey-400: #98a2b3;
+  --green-1: #219653;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-text-bold-16: Inter;
+  --body-1-regular: Heebo;
+
+  /* font sizes */
+  --body-text-bold-16-size: 16px;
+  --button-semi-bold-14-size: 14px;
+  --headline-bold-32-size: 32px;
+
+  /* Colors */
+  --grey-50: #f9fafb;
+  --color-whitesmoke-100: #f7f7f7;
+  --gray-200: #eee;
+  --grey-200: #eaecf0;
+  --white: #fff;
+  --grey-500: #5c6881;
+  --gray-900: #212121;
+  --main-text: #101828;
+  --grey-300: #d0d5dd;
+  --grey-400: #98a2b3;
+  --color-crimson: #f31559;
+  --blue-600: #1570ef;
+
+  /* Gaps */
+  --gap-5xs: 8px;
+  --gap-5xl: 24px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-9xs: 4px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-181xl: 200px;
+  --br-81xl: 100px;
+
+  /* Effects */
+  --bottom-card-shadow-heavy: 0px 6px 16px rgba(0, 0, 0, 0.16);
+  --bottom-card-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.04);
+}

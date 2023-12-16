@@ -1,0 +1,145 @@
+.frame-item-nav-bar {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.logitrack-nav-bar {
+    position: relative;
+    line-height: 24px;
+    color: #012A4A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.frame-parent12-nav-bar,
+.frame-wrapper5-nav-bar {
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.frame-parent12-nav-bar {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-xs);
+}
+
+.frame-wrapper5-nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: var(--headline-normal-24-size);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 60px;
+}
+
+.create-order1-nav-bar,
+.dashboard-nav-bar {
+    position: relative;
+    letter-spacing: 0.15px;
+    line-height: 140%;
+}
+
+.dashboard-nav-bar {
+    font-weight: 600;
+}
+
+.create-order1-nav-bar {
+    color: var(--main-text);
+    cursor: pointer;
+    width: 96px;
+}
+
+.dashboard-parent-nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-21xl);
+    color: var(--color-crimson-100);
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.avatardefault-icon-nav-bar {
+    position: relative;
+    border-radius: var(--br-181xl);
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.john-doe-nav-bar {
+    position: relative;
+    color: var(--Main-Text, #101828);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+    white-space: nowrap;
+}
+
+.avatardefault-parent-nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.iconarrow-down3-nav-bar {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+.frame-parent11-nav-bar,
+.frame-parent13-nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    color: var(--main-text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.frame-parent11-nav-bar {
+    position: fixed;
+    top: 0;
+    left: calc(50% - 720px);
+    background-color: var(--white);
+    width: 1440px;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-101xl);
+    box-sizing: border-box;
+    gap: var(--gap-291xl);
+    text-align: left;
+    font-size: var(--body-textmedium-16-size);
+    color: var(--color-darkslategray);
+    font-family: var(--body-textmedium-16);
+    display: flex;
+    width: 1440px;
+    padding: 8px 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 310px;
+    z-index: 1;
+}

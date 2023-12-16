@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-text-bold-16: Inter;
+  --font-mulish: Mulish;
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --body-text-bold-16-size: 16px;
+  --headline-bold-24-size: 24px;
+  --button-bold-14-size: 14px;
+  --font-size-xl: 20px;
+  --headline-bold-32-size: 32px;
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --grey-50: #f9fafb;
+  --grey-100: #f2f4f7;
+  --grey-200: #eaecf0;
+  --white: #fff;
+  --grey-500: #667085;
+  --grey-5001: #5c6881;
+  --grey-400: #98a2b3;
+  --color-crimson-100: #f31559;
+  --grey-600: #475467;
+  --dark: #333;
+  --color-darkslategray-100: #21334f;
+  --color-darkslategray-200: rgba(33, 51, 79, 0.5);
+  --color-darkslategray-300: rgba(33, 51, 79, 0.1);
+  --color-darkslategray-400: rgba(33, 51, 79, 0.65);
+  --neutral-black: #25282b;
+  --main-text: #101828;
+  --grey-300: #d0d5dd;
+  --error-500: #f04438;
+  --yellow-400: #fac515;
+  --main-primary-color: #34a853;
+  --primary-default: #336cfb;
+  --blue-600: #1570ef;
+  --blue-700: #175cd3;
+  --warning-600: #dc6803;
+  --indigo-700: #3538cd;
+  --gray-6: #e6e5e6;
+  --components-border-color: #e5e5e5;
+  --color-firebrick-100: #c02f1e;
+  --color-lightgoldenrodyellow: #dcfad8;
+  --color-yellowgreen: #b8d344;
+  --text-colour: #031f4b;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-3xs: 10px;
+  --gap-base: 16px;
+  --gap-9xs: 4px;
+  --gap-79xl: 98px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-181xl: 200px;
+  --br-81xl: 100px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --card-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  --bottom-card-shadow-heavy: 0px 6px 16px rgba(0, 0, 0, 0.16);
+  --bottom-card-shadow-light: 0px 4px 8px rgba(0, 0, 0, 0.04);
+}

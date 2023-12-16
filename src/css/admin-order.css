@@ -1,0 +1,148 @@
+.first-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#text {
+    color: var(--Main-Text, #101828);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.25px;
+}
+
+.filters-ic {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Grey-300, #D0D5DD);
+    background: #F7F7F7;
+    color: #F31559;
+}
+
+#filter {
+    color: #F31559;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.15px;
+}
+
+.filters-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.assign-button {
+    display: flex;
+    max-width: 120px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Grey-300, #D0D5DD);
+    background: var(--Grey-50, #F9FAFB);
+    margin: auto;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.sub-general {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.general-admin-table {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 1024px;
+    background: #F7F7F7;
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 245px;
+}
+
+.pagination-aod {
+    align-items: center;
+    gap: 12px;
+    margin-left: 290px;
+    padding-top: 0px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination-aod button {
+    border-radius: 8px;
+    border: 1px solid var(--gray-300, #D0D5DD);
+    background: var(--base-white, #FFF);
+    padding: 8px 14px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    cursor: pointer;
+}
+
+.customer-id-cell {
+    color: var(--Blue-600, #1570EF);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.custom-row {
+    width: 974px;
+    height: 44px;
+    flex-shrink: 0;
+    background-color: white;
+}
+
+.custom-headerss {
+    padding: 8px 32px;
+
+    gap: 80px;
+    background: var(--Grey-200, #EAECF0);
+}
+
+.assign-button::first-line {
+    color: var(--Main-Text, #101828);
+
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.drop-down-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.paginations {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 130px;
+}
+
+@media screen and (max-width: 760px) {
+    .general-admin-table {
+        max-width: 1010px;
+    }
+}

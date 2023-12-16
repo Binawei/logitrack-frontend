@@ -1,0 +1,121 @@
+.navbardefault-type-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 1169px;
+  height: 72px;
+}
+
+.search-alt-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.search {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 140%;
+  color: var(--Main-Text, #101828);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+
+.search-alt-parent,
+.search-bar {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-alt-parent {
+  display: flex;
+  gap: var(--gap-5xs);
+}
+
+.search-bar {
+  position: absolute;
+  top: 14px;
+  left: 60px;
+  border-radius: var(--br-81xl);
+  background-color: var(--white);
+  border: 1px solid var(--grey-300);
+  box-sizing: border-box;
+  width: 439px;
+  display: none;
+  padding: var(--padding-3xs) var(--padding-5xl);
+}
+
+.frame-child2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.avatardefault-icon {
+  position: relative;
+  border-radius: var(--br-181xl);
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.fisearch-wrapper,
+.frame-parent70,
+.frame-parent80 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.frame-parent70 {
+  position: absolute;
+  top: 20px;
+  left: 861px;
+  align-items: center;
+  gap: var(--gap-5xl);
+  color: var(--main-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.fisearch-wrapper,
+.frame-parent80 {
+  align-items: flex-start;
+}
+
+.frame-parent80 {
+  position: absolute;
+  top: 16px;
+  left: 39px;
+  border-radius: var(--br-5xs);
+  background-color: var(--white);
+  border: 1px solid var(--grey-200);
+  box-sizing: border-box;
+  width: 466px;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: center;
+  gap: var(--gap-5xs);
+  color: var(--grey-5001);
+}
+
+.navbardefault-type {
+  position: fixed;
+  box-shadow: var(--bottom-card-shadow-light);
+  width: 1169px;
+  height: 72px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-text-bold-16-size);
+  color: var(--grey-400);
+  font-family: var(--body-text-bold-16);
+  z-index: 1;
+}

@@ -1,0 +1,80 @@
+.loading-icon-cp {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .calculating-price-based-cp {
+    position: relative;
+    line-height: 140%;
+    display: inline-block;
+    width: 505px;
+    flex-shrink: 0;
+  }
+  .calculating-price-based-on-wei-wrapper-cp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .key-alt-icon-cp {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .text-cp {
+    position: relative;
+    letter-spacing: 0.15px;
+    line-height: 140%;
+  }
+  .buttondefault-cp {
+    border-radius: var(--br-7xs);
+    background-color: var(--white);
+    width: 623px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-base);
+    box-sizing: border-box;
+    gap: var(--gap-5xs);
+  }
+  .buttondefault-wrapper-cp,
+  .create-orderform-cp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--body-text-normal-16-size);
+  }
+  .create-orderform-cp {
+    position: relative;
+    border-radius: 16px;
+    background-color: var(--white);
+    width: 100%;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    gap: 40px;
+    text-align: center;
+    font-size: var(--headline-bold-24-size);
+    color: var(--main-text);
+    font-family: var(--body-text-normal-16);
+    display: flex;
+    width: 678px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 16px;
+    background: var(--White, #FFF);
+    animation-delay: 3500ms;
+    animation-duration: 0ms;
+  }
+  

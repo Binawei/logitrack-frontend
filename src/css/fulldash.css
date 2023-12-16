@@ -1,0 +1,19 @@
+.listeddivcc {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: flex-start;
+    padding-right: 30px;
+}
+.listeddivcc li:first-child{
+    color: #F31559;
+
+/* Body Text Bold - 16 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 22.4px */
+letter-spacing: 0.15px;
+}

@@ -1,0 +1,21 @@
+.checkbox-base-icon {
+    position: relative;
+    width: 18px;
+    height: 24px;
+  }
+  .text {
+    position: relative;
+    line-height: 150%;
+  }
+  .texttrue-statedefault-chec {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    text-align: left;
+    font-size: var(--body-text-bold-16-size);
+    color: var(--gray-900);
+    font-family: var(--body-1-regular);
+  }
+  

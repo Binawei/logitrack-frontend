@@ -1,0 +1,31 @@
+.general-track{
+    display: flex;
+}
+.nav-bodies{
+    display: flex;
+    flex-direction: column;
+}
+.navbar-ooss{
+    margin-left: auto; 
+    width: 1200px;
+}
+#STATUSS{
+    color: var(--Main-Primary-color, #34A853);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0.15px;
+}
+#trackS-text{
+    color: var(--Main-Text, #101828);
+
+/* Headline Bold - 32 */
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 44.8px */
+letter-spacing: 0.25px;
+}

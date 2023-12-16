@@ -1,0 +1,172 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: none;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.checkbox-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-cell {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.topTable {
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.Tablecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.pagination {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 350px;
+}
+
+.pagination button {
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #D0D5DD);
+  background: var(--base-white, #FFF);
+  padding: 8px 14px;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.pagination input {
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #D0D5DD);
+  background: var(--base-white, #FFF);
+  padding: 8px 14px;
+  align-items: center;
+
+
+}
+
+.custom-span {
+  color: var(--Main-Text, #101828);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.15px;
+  display: flex;
+  gap: 8px;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: -15px;
+  left: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+}
+
+.custom-checkbox input:checked~.checkmark {
+  background-color: #F31559;
+  border-color: rgba(243, 21, 89, 0.10);
+}
+
+.checkmark::before {
+  content: "✔";
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: 2px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header-row {
+  background: var(--Grey-100, #F2F4F7);
+  width: 1177px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.table-row {
+  width: 1146px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.table-cell {
+  color: var(--Main-Text, #101828);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+}
+
+.status-cell.In-progress {
+  color: var(--Main-Text, #101828);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+  background: var(--Blue-100, #D1E9FF);
+}
+
+.status-cell.failed {
+  color: var(--Error-500, #F04438);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+  border-radius: 100px;
+  background: var(--Error-100, #FEE4E2);
+}
+
+.status-cell.Delivered {
+  color: var(--Main-Primary-color, #34A853);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.15px;
+  border-radius: 100px;
+  background: var(--Success-100, #D1FADF);
+}

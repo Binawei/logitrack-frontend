@@ -1,0 +1,63 @@
+.footer-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  width: 1440px;
+  height: 284px;
+}
+.footer-item {
+  position: absolute;
+  top: 230px;
+  left: 1145px;
+  width: 224px;
+  height: 24px;
+}
+.copyright-2023-logictrack,
+.footer-inner {
+  position: absolute;
+  top: 230px;
+  left: 70px;
+}
+.footer-inner {
+  top: 197.5px;
+  left: 68.5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  width: 1301px;
+  height: 1px;
+}
+.frame-child21 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.logitrack {
+  position: relative;
+  line-height: 24px;
+}
+.frame-parent7 {
+  position: absolute;
+  top: 56px;
+  left: calc(50% - 85px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  font-size: 24px;
+}
+.footer {
+  position: absolute;
+  top: 5175px;
+  left: 0;
+  width: 1440px;
+  height: 284px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 18px;
+  color:  #fff;
+  font-family: Inter;
+}

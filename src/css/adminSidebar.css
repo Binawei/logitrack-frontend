@@ -1,0 +1,133 @@
+.general-sidebar{
+    gap: 32px;
+    flex-shrink: 1px; 
+
+    flex: 2; 
+    flex-direction: column;
+    width: 100%;
+    border-right: 0.5px solid rgb(230, 227, 227);
+    min-height: 100vh;
+    overflow: hidden;
+}
+.textxx {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative; 
+  }
+  
+  .circles-iconxx {
+    fill: #F31559;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  
+  .buss-iconxx {
+    position: absolute; 
+    left: 9px; 
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color:White ;
+  }
+  
+.textxx p{
+    color: #012A4A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    color: #012A4A;
+}
+.horizontals-line{
+    width: 223px;
+    height: 0px;
+    color: #EAEBEC;
+}
+.top-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+  .list-sidebar{
+    display: flex;
+    width: 223px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--White, #FFF);
+  }
+  .list-sidebar p{
+    color: var(--Grey-500, #5C6881);
+
+    /* Body Text Normal -16 */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 0.15px;
+  }
+ .overview-sideber{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 10px;
+ }
+ #over{
+    color: var(--Grey-400, #98A2B3);
+
+/* Body Text Normal -16 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: 0.15px;
+ }
+ #others{
+    color: var(--Grey-400, #98A2B3);
+
+/* Body Text Normal -16 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 22.4px */
+letter-spacing: 0.15px;
+ }
+ .icons{
+    display: flex;
+width: 24px;
+height: 24px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+ }
+ .people-icons{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+ }
+ .dashboard-list{
+    display: flex;
+    flex-direction: column;
+width: 223px;
+padding: 10px;
+align-items: center;
+border-radius: 8px;
+ }
+ .others-view{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding-left: 10px;
+ }
